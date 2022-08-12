@@ -1,0 +1,15 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.grid-div {
+  border: 2px solid black;
+  width: 40px;
+  height: 40px;
+}
