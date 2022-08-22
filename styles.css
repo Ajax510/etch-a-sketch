@@ -1,25 +1,14 @@
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
+#container {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(16, 50px);
+  grid-template-rows: repeat(16, 50px);
 }
 
-.grid-div {
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
+.divs {
+  border: 2px solid black;
 }
 
-/* .grid-div:hover {
-  background-color: blue;
-} */
+.background {
+  background-color: brown;
+}
