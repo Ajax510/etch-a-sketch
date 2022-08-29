@@ -1,7 +1,7 @@
-// selecting the container ID
 const container = document.querySelector("#container");
-// selecting the setSize class
+
 const button = document.querySelector(".setSize");
+const resetButton = document.querySelector("#resetButton");
 
 // function will get the number of square divs to create and return the number
 function getGridSize() {
@@ -41,3 +41,8 @@ function grid(gridSize) {
     container.appendChild(div);
   }
 }
+
+// trying to remove the background class so that the color returns to white
+resetButton.addEventListener("click", () => {
+  div.classList.remove("background");
+});
